@@ -1,42 +1,101 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<link href="style.css" rel="stylesheet">
-		<title>Your Name resume</title>
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body class="bg-gray-200">
+    <div class="bg-white ml-28 mr-28 mt-3 shadow-xl flex">
+      <!--left-->
+      <div class="bg-blue-900 w-1/5">
+        <div class="text-white font-semibold pt-12 pl-2">
+          <div>Phone</div>
+          <div><a href="tel:+61403698088">(+61)403698088</a></div>
+        </div>
+        <div class="text-white font-semibold pt-12 pl-2">
+          <div>Email</div>
+          <div><a href="mailto:francisxvaz@gmail.com">francisxvaz@gmail.com</a></div>
+        </div>
+      </div>
 
-	<body>
-		<header id="header">
-			<!-- resume header with your name and title -->
-			<h1><b>Francis/b> Vaz</h1>
-			<hr>
-			YOUR TITLE (EX: SOFTWARE ENGINEERING STUDENT)
-			<hr>
-		</header>
-		<main>
-			<article id="mainLeft">
-				<section>
-					<h2>CONTACT</h2>
-					<!-- contact info including social media -->
-				</section>
-				<section>
-					<h2>SKILLS</h2>
-					<!-- your skills AKA "buzzwords" -->
-				</section>
-				<section>
-					<h2>EDUCATION</h2>
-					<!-- your education -->
-				</section>            
-			</article>
-			<article id="mainRight">
-				<section>
-					<h2>ABOUT</h2>
-					<!-- about you -->
-				</section>
-				<section>
-					<h2>WORK EXPERIENCE</h2>
-					<!-- your work experience -->
-				</section>
-			</article>
-		</main>
-	</body>
+      <!--right-->
+      <div class="pl-5 w-4/5 mr-3">
+        <h1 class="mt-10 font-bold text-gray-400 text-5xl">Francis Vaz</h1>
+        <h2 class="text-xl text-gray-300">Sotware Test Analyst</h2>
+
+        <div class="w-full pt-2">
+          <div class="p-2 inline-flex justify-center align-middle space-x-3">
+            <i class="fas fa-location text-2xl text-blue-800"></i>
+            <div class="text-gray-900">Sydney, NSW, 2000</div>
+          </div>
+          <div class="text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            quod, nemo at ipsum animi, error nam culpa non consequuntur eos
+            corrupti rerum voluptas officiis? Molestiae incidunt quia aspernatur
+            soluta ratione. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Fuga illo iste unde sequi, voluptate quas, odio nobis delectus
+            omnis nostrum adipisci magnam sapiente eius repudiandae quo
+            praesentium minima quae? Iste!
+          </div>
+        </div>
+
+        <div class="flex mt-10 justify-start space-x-4 flex-col">
+          
+          <div class="pl-10 w-full relative">
+            
+            <i class="fa-solid fa-gavel text-4xl p-6 text-blue-800 absolute -top-6 left-0"></i>
+            <div class="bg-blue-800 absolute rounded-full px-2 py-2 left-8 top-20"></div>
+            <div  class="pl-28 border-l border-x-blue-200 border-y-green-100">
+              <h1 class="font-bold text-xl uppercase text-blue-800"> Skills</h1>
+              <ul class="text-gray-500 pb-10 list-disc">
+                <li>Automated / Manual UI testing using selenium and cypress</li>
+                <li>API Testing using Postman</li>
+                <li>Visual testing using Applitool</li>
+                <li>Load testing using JMeter</li>
+                <li>Jira</li>
+                <li>Zephyr</li>
+              </ul>
+            </div>
+          </div>
+          <div class="pl-5 w-full relative">
+            <i class="fa-solid fa-briefcase text-4xl p-6 text-blue-800 absolute -top-6 -left-5"></i>
+            <div class="bg-blue-800 absolute rounded-full px-2 py-2 left-3 top-20"></div>
+            <div  class="pl-28 border-l border-x-blue-200 border-y-green-100">
+              <h1 class="font-bold text-xl uppercase text-blue-800"> Work History</h1>
+              <h2 class=" text-blue-800">Snr. Software QA at Australian Unity </h2>
+              <ul class="text-gray-500 pb-10">
+                <li class="text-gray-900"> </li>
+                <li>API Testing using Postman</li>
+                <li>Visual testing using Applitool</li>
+                <li>Load testing using JMeter</li>
+                <li>Jira</li>
+                <li>Zephyr</li>
+              </ul>
+            </div>
+          </div>
+          <div class="pl-5 w-full relative">
+            
+            <div class="bg-blue-800 absolute rounded-full px-2 py-2 left-3 top-10"></div>
+            <div  class="pl-28 border-l border-x-blue-200 border-y-green-100">
+              
+              <h2 class=" text-blue-800">Software QA at Link Market Services </h2>
+              <ul class="text-gray-500 pb-10">
+                <li class="text-gray-900"> </li>
+                <li>API Testing using Postman</li>
+                <li>Visual testing using Applitool</li>
+                <li>Load testing using JMeter</li>
+                <li>Jira</li>
+                <li>Zephyr</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
